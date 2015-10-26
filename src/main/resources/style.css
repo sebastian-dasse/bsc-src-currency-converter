@@ -1,0 +1,53 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  padding: 15px;
+  background: rgb(246, 248, 250);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(0, 51, 204);
+}
+
+input[type=text] {
+  padding: 0 10px;
+}
+
+.input-btn {
+  background: rgb(212, 220, 230);
+  color: rgb(0, 51, 204);
+  font-weight: 800;
+  font-size: 1.25em;
+  border: 1px solid rgb(0, 51, 204);
+  padding: 0.25em 0.75em;
+  cursor: pointer;
+}
+
+#form-conv {
+  display: flex;
+  flex-direction: row;
+}
+
+#form-conv * {
+  padding: 5px 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  border: 1px solid lightgrey;
+  width: 20%;
+}
+
+#form-conv option {
+  width: auto;
+  border-style: none;
+}
+
+#form-conv input {
+  text-align: right;
+}
+
+#out-dst-amount {
+  padding: 10px 10px;
+  text-align: right;
+  background: white;
+}
