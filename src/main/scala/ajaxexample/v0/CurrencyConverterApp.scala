@@ -10,9 +10,9 @@ import scala.async.Async._
 import scalatags.JsDom.all._
 
 /*
- * A first version of the currency converter app to gain a first understand on
- * how to work with Ajax and handle subsequent UI updates. An important source
- * of inspiration for the Ajax parts was:
+ * A first version of the currency converter app to gain a first understanding
+ * on how to work with Ajax and handle subsequent UI updates. An important
+ * source of inspiration for the Ajax parts was:
  * - http://lihaoyi.github.io/hands-on-scala-js/#UsingWebServices
  * - http://lihaoyi.github.io/hands-on-scala-js/#dom.extensions
  */
